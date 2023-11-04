@@ -41,10 +41,10 @@
 /*----------------------------------------
  01. THEME DEFAULT CSS START
 ----------------------------------------*/
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Jost:wght@300;400;500;600;700;800;900&family=Montaga&family=Outfit:wght@300;400;500;600;700;800;900&family=Pacifico&family=Roboto:wght@300;400;500;700;900&family=Satisfy&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Montserrat:wght@300;400;500;600;700;800;900&family=Montaga&family=Outfit:wght@300;400;500;600;700;800;900&family=Pacifico&family=Roboto:wght@300;400;500;700;900&family=Satisfy&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet');
 @font-face {
-  font-family: "Satoshi";
-  src: url("../fonts/Satoshi-Medium.otf") format("woff");
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-SemiBold.ttf") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -53,9 +53,9 @@
   /**
   @font family declaration
   */
-  --tp-ff-body: Satoshi;
-  --tp-ff-heading: 'Outfit', sans-serif;
-  --tp-ff-satoshi: Satoshi;
+  --tp-ff-body: Montserrat;
+  --tp-ff-heading: 'Outfit', montserrat;
+  --tp-ff-montserrat: Montserrat;
   --tp-ff-fontawesome: Font Awesome 6 Pro;
   /**
   @color declaration
@@ -3087,7 +3087,7 @@ body .ui-tooltip {
 }
 
 .ui-widget, .ui-widget button, .ui-widget input, .ui-widget select, .ui-widget textarea {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, montserrat;
   font-size: 1em;
 }
 
@@ -5485,7 +5485,7 @@ body .ui-tooltip {
   border-right: none;
 }
 .tp-header__main-menu ul li > a {
-  font-family: var(--tp-ff-satoshi);
+  font-family: var(--tp-ff-montserrat);
   font-weight: 500;
   font-size: 16px;
   line-height: 22px;
@@ -5582,7 +5582,7 @@ body .ui-tooltip {
   top: -11px;
   right: -3px;
   display: inline-block;
-  font-family: "Jost", sans-serif;
+  font-family: "Jost", montserrat;
   font-weight: 500;
   font-size: 12px;
   color: var(--tp-common-white);
@@ -5866,7 +5866,7 @@ body .ui-tooltip {
   border-right: none;
 }
 .tp-header-2__main-menu ul li > a {
-  font-family: var(--tp-ff-satoshi);
+  font-family: var(--tp-ff-montserrat);
   font-weight: 500;
   font-size: 16px;
   line-height: 22px;
@@ -5944,7 +5944,7 @@ body .ui-tooltip {
   top: -15px;
   right: -3px;
   display: inline-block;
-  font-family: "Jost", sans-serif;
+  font-family: "Jost", montserrat;
   font-weight: 500;
   font-size: 12px;
   color: var(--tp-common-white);
@@ -8938,7 +8938,7 @@ body .ui-tooltip {
   font-weight: 400;
   font-size: 15px;
   line-height: 22px;
-  font-family: "Jost", sans-serif;
+  font-family: "Jost", montserrat;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .tp-feature-3__text span {
@@ -11954,7 +11954,7 @@ p.checkout-coupon input[type=text]:focus {
   font-weight: 500;
   font-size: 130px;
   position: relative;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", montserrat;
 }
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
   .tp-service-2__big-title {
@@ -12098,7 +12098,7 @@ p.checkout-coupon input[type=text]:focus {
   display: inline-block;
   line-height: 34px;
   text-align: center;
-  font-family: "DM Sans", sans-serif;
+  font-family: "DM Sans", montserrat;
 }
 .tp-service-2__title-sm {
   font-weight: 500;
@@ -12178,7 +12178,7 @@ p.checkout-coupon input[type=text]:focus {
   font-weight: 500;
   font-size: 25px;
   color: #252F32;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", montserrat;
   line-height: 29px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
@@ -12889,7 +12889,7 @@ p.checkout-coupon input[type=text]:focus {
   background-color: transparent;
   color: var(--tp-common-white);
   font-size: 18px;
-  font-family: "Syne", sans-serif;
+  font-family: "Syne", montserrat;
   padding-left: 45px;
   padding-right: 130px;
   text-transform: capitalize;
@@ -12939,7 +12939,7 @@ p.checkout-coupon input[type=text]:focus {
   font-size: 16px;
   line-height: 19px;
   color: var(--tp-common-white);
-  font-family: "Syne", sans-serif;
+  font-family: "Syne", montserrat;
   text-transform: capitalize;
 }
 .tp-work-2__btn button svg {
@@ -13001,7 +13001,7 @@ p.checkout-coupon input[type=text]:focus {
 .tp-work-2__thumb-text span {
   font-weight: 600;
   font-size: 27px;
-  font-family: "Syne", sans-serif;
+  font-family: "Syne", montserrat;
   text-transform: capitalize;
   color: var(--tp-common-white);
 }
@@ -13036,7 +13036,7 @@ p.checkout-coupon input[type=text]:focus {
   color: var(--tp-common-white);
   font-weight: 600;
   font-size: 20px;
-  font-family: "Syne", sans-serif;
+  font-family: "Syne", montserrat;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px) {
   .tp-work-2__thumb-text-2 span {
@@ -14884,7 +14884,7 @@ p.checkout-coupon input[type=text]:focus {
 }
 .tp-contact-4__comment-agree .form-check-label {
   font-size: 16px;
-  font-family: "DM Sans", sans-serif;
+  font-family: "DM Sans", montserrat;
   font-style: normal;
   font-weight: 400;
   line-height: 26px;
@@ -15460,7 +15460,7 @@ p.checkout-coupon input[type=text]:focus {
 }
 .tp-best-product-4__title {
   color: var(--tp-common-white);
-  font-family: "Jost", sans-serif;
+  font-family: "Jost", montserrat;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -15880,7 +15880,7 @@ p.checkout-coupon input[type=text]:focus {
 }
 .tp-trend-product-5__button-box nav button {
   color: #949392;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", montserrat;
   font-size: 15px;
   font-weight: 600;
   text-transform: uppercase;
@@ -18391,7 +18391,7 @@ p.checkout-coupon input[type=text]:focus {
   }
 }
 .tp-slider-text__text span {
-  font-family: "Syne", sans-serif;
+  font-family: "Syne", montserrat;
   font-weight: 700;
   font-size: 27px;
   color: var(--tp-common-black);
@@ -18445,7 +18445,7 @@ p.checkout-coupon input[type=text]:focus {
   }
 }
 .tp-slider-text-2__text span {
-  font-family: "Syne", sans-serif;
+  font-family: "Syne", montserrat;
   font-weight: 700;
   font-size: 27px;
   color: var(--tp-common-black);
@@ -19053,7 +19053,7 @@ p.checkout-coupon input[type=text]:focus {
 }
 .tp-blog-4__thumb-text span {
   color: #1B1A1A;
-  font-family: "Syne", sans-serif;
+  font-family: "Syne", montserrat;
   font-size: 12px;
   font-weight: 600;
   text-transform: uppercase;
@@ -19106,7 +19106,7 @@ p.checkout-coupon input[type=text]:focus {
 }
 .tp-blog-4__meta span {
   color: #000;
-  font-family: "Syne", sans-serif;
+  font-family: "Syne", montserrat;
   font-size: 16px;
   font-weight: 400;
   margin-right: 20px;
