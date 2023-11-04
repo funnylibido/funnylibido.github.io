@@ -1,0 +1,63 @@
+         
+         .btn-grad {
+            background-image: linear-gradient(to right, #000000 0%, #434343  51%, #000000  100%);
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+          }
+
+          .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+         
+
+                  
+         .btn-grad {
+            background-image: linear-gradient(to right, #000000 0%, #434343  51%, #000000  100%);
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+          }
+
+          .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+         
+
+
+
+
+<div class="tp-header__logo">
+  <a href="index.html">
+    <svg xmlns="http://www.w3.org/2000/svg" width="110" height="auto" viewBox="0 0 110 50">
+      <!-- Define a linear gradient -->
+      <defs>
+        <linearGradient id="logo-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" style="stop-color: #000000" />
+          <stop offset="50%" style="stop-color: #434343" />
+          <stop offset="100%" style="stop-color: #000000" />
+        </linearGradient>
+      </defs>
+      <!-- Apply the gradient to the path or rect element in your SVG -->
+      <path fill="url(#logo-gradient)" d="..."><!-- Your SVG path data here --></path>
+    </svg>
+  </a>
+</div
