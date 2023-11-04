@@ -5603,14 +5603,24 @@ body .ui-tooltip {
 }
 
 .tp-header__logo {
-  width: 110px;
-  height: auto;
-  transition: fill 0.3s; /* Smooth transition for hover effect */
+  /* Set the cursor to pointer to indicate a clickable link */
+  cursor: pointer;
+  
+  /* Smooth transition for hover effect on fill and cursor with a cubic-bezier easing function */
+  transition: fill 0.3s cubic-bezier(0.4, 2.2, 0.2, 1), cursor 0.3s cubic-bezier(0.4, 2.2, 0.2, 1);
+}
+
+.tp-header__logo polygon,
+.tp-header__logo path {
+  fill: url(#linear-gradient); /* Apply the first gradient initially */
 }
 
 .tp-header__logo:hover {
-  fill: url(#FF0000); /* Apply the gradient fill on hover */
+  /* Change the fill to the second gradient on hover */
+  fill: url(#linear-gradient-2);
 }
+
+
 
 @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .tp-header__logo {
