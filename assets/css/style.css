@@ -41,7 +41,7 @@
 /*----------------------------------------
  01. THEME DEFAULT CSS START
 ----------------------------------------*/
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Montserrat:wght@300;400;500;600;700;800;900&family=Montaga&family=Outfit:wght@300;400;500;600;700;800;900&family=Pacifico&family=Roboto:wght@300;400;500;700;900&family=Satisfy&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Montserrat:wght@300;400;500;600;700;800;900&family=Montaga&family=Pacifico&family=Roboto:wght@300;400;500;700;900&family=Satisfy&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet');
 @font-face {
   font-family: "Montserrat";
   src: url("../fonts/Montserrat-SemiBold.ttf") format("woff");
@@ -54,7 +54,7 @@
   @font family declaration
   */
   --tp-ff-body: Montserrat;
-  --tp-ff-heading: 'Outfit', montserrat;
+  --tp-ff-heading: 'Montserrat', montserrat;
   --tp-ff-montserrat: Montserrat;
   --tp-ff-fontawesome: Font Awesome 6 Pro;
   /**
@@ -464,7 +464,7 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
 .tp-main-btn::before {
   position: absolute;
   content: "";
-  background: linear-gradient(93.19deg, #FF4D8D 15.64%, #507EFB 84.55%);
+  background: linear-gradient(93.19deg, #000000 0%, #434343  51%, #000000  100%);
   border-radius: 32px;
   width: 98%;
   height: 98%;
@@ -4672,7 +4672,7 @@ body .ui-tooltip {
   }
 }
 .tp-hero-title span {
-  background: linear-gradient(90.07deg, #FF4E8D 32.43%, #AE34E8 58.79%, #3E8DFF 105.32%);
+  background: linear-gradient(90.07deg,#000000 0%, #434343  51%, #000000  100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -5322,7 +5322,7 @@ body .ui-tooltip {
 .tp-header-top__left-box span {
   color: var(--tp-common-white);
   font-weight: 500;
-  font-size: 16px;
+  font-size: 15px;
   text-transform: capitalize;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px), (max-width: 767px) {
@@ -5343,7 +5343,7 @@ body .ui-tooltip {
 }
 .tp-header-top__shop-box span {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 15px;
   color: var(--tp-common-white);
   margin-right: 12px;
   text-transform: capitalize;
@@ -5582,7 +5582,7 @@ body .ui-tooltip {
   top: -11px;
   right: -3px;
   display: inline-block;
-  font-family: "Jost", montserrat;
+  font-family: "Montserrat", montserrat;
   font-weight: 500;
   font-size: 12px;
   color: var(--tp-common-white);
@@ -5944,7 +5944,7 @@ body .ui-tooltip {
   top: -15px;
   right: -3px;
   display: inline-block;
-  font-family: "Jost", montserrat;
+  font-family: "Montserrat", montserrat;
   font-weight: 500;
   font-size: 12px;
   color: var(--tp-common-white);
@@ -8938,7 +8938,7 @@ body .ui-tooltip {
   font-weight: 400;
   font-size: 15px;
   line-height: 22px;
-  font-family: "Jost", montserrat;
+  font-family: "Montserrat", montserrat;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .tp-feature-3__text span {
@@ -15460,7 +15460,7 @@ p.checkout-coupon input[type=text]:focus {
 }
 .tp-best-product-4__title {
   color: var(--tp-common-white);
-  font-family: "Jost", montserrat;
+  font-family: "Montserrat", montserrat;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -18482,7 +18482,7 @@ p.checkout-coupon input[type=text]:focus {
   }
 }
 .tp-slider-text-2__gradiant-bg {
-  background: linear-gradient(90.33deg, #FF4D8D 49.71%, #9C42EB 82%, #4D81FB 100.53%);
+  background: linear-gradient(90.33deg, #000000 49.71%, #434343 82%, #000000 100.53%);
   height: 60px;
   line-height: 60px;
   transform: rotate(-6.13deg);
