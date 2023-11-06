@@ -20262,7 +20262,7 @@ p.checkout-coupon input[type=text]:focus {
 .tp-footer__thumb span {
   font-weight: 500;
   font-size: 18px;
-  color: var(--tp-common-black);
+  color: var(--tp-common-white);
   margin-bottom: 25px;
   display: inline-block;
 }
